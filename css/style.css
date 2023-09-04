@@ -5,4 +5,14 @@
 }
 
 
-       
+
+/* DEBUG */
+
+.debug .header-page{
+    padding: 20px;
+    min-height: 200px;
+}
+
+.header-page{
+    background-color:#ADD8E6 ;
+}
