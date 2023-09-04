@@ -10,20 +10,88 @@ body{
 
 .container {
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-basis: calc((100%)/3);
 }
+
+.container {
+    margin: 0 auto;
+}
+
+/* NAV */
+
+.row-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: #DAA520;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+.col-1 {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.col-2 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.col-3{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+/* MAIN */
+
+.col-4{
+    display: flex;
+    background-color: #EE82EE;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-basis: calc((100%)/3);
+}
+
+.col-5, .col-6{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-basis: calc((100%)/3);
+}
+
+.col-5{
+    background-color:#1E90FF ;
+}
+
+.col-6{
+    background-color:#FFC0CB ;
+
+}
+
 
 .flex{
     display: flex;
     flex-direction: column;
-    padding: 0;
-    
 }
+
 
 .flex-footer{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
 }
+
 
 .row{
     display: flex;
@@ -51,7 +119,7 @@ body{
 
 /* DEBUG */
 
-.debug .header-page, .debug .footer-page {
+.debug .header-page, .debug .footer-page, .debug nav{
     min-height: 100px;
 }
 
@@ -61,8 +129,18 @@ body{
 
 .debug .footer-page{
     background-color: #23272A;
-    border: 1px solid black;
 }
+
+.debug nav {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.debug .col-1, .debug .col-2, .debug .col-3, .debug .col-4{
+    border: 5px dotted black;
+}
+
 
 
 
