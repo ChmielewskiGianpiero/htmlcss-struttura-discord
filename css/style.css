@@ -8,19 +8,43 @@
     margin: 0 auto;
 }
 
-.row{
-
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
+.row{
+    min-height: 500px;
+}
+
+.row-large{
+    min-height: 900px;
+}
 
 /* DEBUG */
 
-.debug .main-content{
+.debug .header-page, .debug .footer-page {
     padding: 20px;
-    min-height: 800px;
+    min-height: 100px;
 }
 
+.debug .header-page{
+    background-color: #ADD8E6;
+}
+
+
 .debug .main-content{
-    background-color: green;
+    padding: 20px;
+}
+
+.debug section {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.debug .footer-page{
+    background-color: #23272A;
+    
 }
 
