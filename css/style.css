@@ -15,7 +15,6 @@
 }
 
 
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +24,17 @@
 
 .justify-between{
     justify-content:space-between
+}
+
+.col-logo {
+    width: 60px;
+}
+
+.col-link{
+    margin-right: 30px;
+    font-size: 10px;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFF;
 }
 
 
@@ -54,8 +64,8 @@
 
 /* debug */
 
-.debug .header-page{
-    background-color: #ADD8E6;
+.header-page{
+    background-color: #3161E0;
     padding: 20px;
 }
 
@@ -98,10 +108,7 @@
     background-color:#EE82EE ;
 }
 
-.debug header .col {
-    background-color: #DAA520;
-    border: 2px dashed black;
-}
+
 
 .debug footer .col{
     background-color: #7FFFD4;
