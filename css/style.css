@@ -1,172 +1,48 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    min-height: 100vh;
-}
-
-.container {
+.container{
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    flex-basis: calc((100%)/3);
+    max-width: 800px;
 }
-
-.container {
-    margin: 0 auto;
-  
-}
-
-/* NAV */
-
-.row-nav{
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    background-color: #DAA520;
-    max-width: 50%;
-}
-
-
-.col-1 {
-    display: flex;
-    flex-grow: 1;
-
-}
-
-.col-2 {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-
-}
-
-.col-3{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-
-/* MAIN */
-
-.col-4{
-    display: flex;
-    background-color: #EE82EE;
-    flex-basis: calc((100%)/3);
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.col-5, .col-6, .col-7{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.col-5{
-    background-color:#1E90FF ;
-    flex-basis: 30%;
-
-}
-
-.col-6{
-    background-color:#FFC0CB ;
-    flex-basis: 20%;
-
-}
-
-.col-7{
-    
-    flex-basis: 50%;
-
-}
-
-.col-8{
-    background-color: #F08080;
-    flex-basis: 14%;
-}
-
-.col-9{
-    background-color: #20B2AA;
-    flex-basis: 9%;
-    border: 5px dotted black;
-    
-
-}
-
-
-.flex{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.flex-footer{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-}
-
 
 .row{
     display: flex;
-    min-height: 500px;
-    flex-grow: 1;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.row-large{
-    justify-content: center;
-    min-height: 900px;
+/* header */
+
+.col{
+    
 }
 
-/* COLORS */
-
-.blue{
-    background-color: #00008B;
+.justify-between{
+    justify-content:space-between
 }
 
-.grey{
-    background-color: #D3D3D3;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.black{
-    background-color: #23272A;
-}
-
-.green{
-    background-color: green;
-}
-
-/* DEBUG */
-
-.debug .header-page, .debug .footer-page, .debug nav{
-    min-height: 100px;
-}
+/* debug */
 
 .debug .header-page{
     background-color: #ADD8E6;
+    padding: 20px;
 }
 
 .debug .footer-page{
-    background-color: #23272A;
+    background-color: #D3D3D3;
+    padding: 20px;
 }
 
-.debug nav {
-    margin-top: 40px;
-    margin-bottom: 20px;
-
+.debug .col {
+    background-color: #DAA520;
+    border: 2px dashed black;
 }
 
-.debug .col-1,.col-2,.col-3,.col-4, .col-5, .col-6, .col-7, .col-8, .col-9{
-    border: 5px dotted black;
-}
+
+
 
 
 
